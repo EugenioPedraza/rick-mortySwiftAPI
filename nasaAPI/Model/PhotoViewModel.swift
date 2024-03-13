@@ -9,15 +9,13 @@ import Foundation
 
 @Observable
 class PhotoViewModel {
-    var arrPhotos =  [Photo]()
-    
-    
+    var arrPersonajes =  [Personaje]()
     
     // Pasos para ingresar una API
     
-    func getPhotosNasa() async throws{
+    func getPersonajesData() async throws{
         // 1. Crear un objeto URL
-        guard let url = URL(string: "https://rickandmortyapi.com/api/character/1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16") else {
+        guard let url = URL(string: "https://rickandmortyapi.com/api/character") else {
             print("Invalid URL")
             return
         }
@@ -37,12 +35,12 @@ class PhotoViewModel {
         
         // 4. Decodificar la informavcion de formato JSON
         
-        let results = try JSONDecoder().decode([Photo].self, from: data)
+        let results = try JSONDecoder().decode(Resultado_API.self, from: data)
         print(results)
         // 5. Utilizamos el thread principal para actualizar la variable de Photos.
         
         DispatchQueue.main.async{
-            self.arrPhotos = results 
+            self.arrPersonajes = results.results
         }
     }
 }

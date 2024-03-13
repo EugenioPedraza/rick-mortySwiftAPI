@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395F16F82B9B8497001704A3 /* BuscadorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395F16F72B9B8497001704A3 /* BuscadorView.swift */; };
+		396F29722BA0E6C800195C91 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F29712BA0E6C800195C91 /* SearchView.swift */; };
+		396F29742BA10A7100195C91 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F29732BA10A7100195C91 /* FavoritesView.swift */; };
 		398BC3F82B992D640053A16D /* nasaAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC3F72B992D640053A16D /* nasaAPIApp.swift */; };
 		398BC3FA2B992D640053A16D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC3F92B992D640053A16D /* ContentView.swift */; };
 		398BC3FC2B992D650053A16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398BC3FB2B992D650053A16D /* Assets.xcassets */; };
@@ -14,6 +17,13 @@
 		398BC4092B992D650053A16D /* nasaAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4082B992D650053A16D /* nasaAPITests.swift */; };
 		398BC4132B992D650053A16D /* nasaAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4122B992D650053A16D /* nasaAPIUITests.swift */; };
 		398BC4152B992D650053A16D /* nasaAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4142B992D650053A16D /* nasaAPIUITestsLaunchTests.swift */; };
+		398BC4222B992DAC0053A16D /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4212B992DAC0053A16D /* PhotoModel.swift */; };
+		398BC4242B992ECD0053A16D /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4232B992ECD0053A16D /* PhotoViewModel.swift */; };
+		398BC4262B993B6F0053A16D /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4252B993B6F0053A16D /* CharacterCardView.swift */; };
+		398BC4282B994B610053A16D /* NavigationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4272B994B610053A16D /* NavigationRow.swift */; };
+		398BC4312B995BAD0053A16D /* USDZView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398BC4302B995BAD0053A16D /* USDZView.swift */; };
+		398BC4382B995F280053A16D /* EARTH.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 398BC4372B995F270053A16D /* EARTH.usdz */; };
+		398BC43A2B9960CC0053A16D /* UFO.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 398BC4392B9960CC0053A16D /* UFO.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		395F16F72B9B8497001704A3 /* BuscadorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscadorView.swift; sourceTree = "<group>"; };
+		396F29712BA0E6C800195C91 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		396F29732BA10A7100195C91 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		398BC3F42B992D640053A16D /* nasaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nasaAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398BC3F72B992D640053A16D /* nasaAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasaAPIApp.swift; sourceTree = "<group>"; };
 		398BC3F92B992D640053A16D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,13 @@
 		398BC40E2B992D650053A16D /* nasaAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nasaAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398BC4122B992D650053A16D /* nasaAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasaAPIUITests.swift; sourceTree = "<group>"; };
 		398BC4142B992D650053A16D /* nasaAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasaAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398BC4212B992DAC0053A16D /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		398BC4232B992ECD0053A16D /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		398BC4252B993B6F0053A16D /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
+		398BC4272B994B610053A16D /* NavigationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRow.swift; sourceTree = "<group>"; };
+		398BC4302B995BAD0053A16D /* USDZView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDZView.swift; sourceTree = "<group>"; };
+		398BC4372B995F270053A16D /* EARTH.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = EARTH.usdz; sourceTree = "<group>"; };
+		398BC4392B9960CC0053A16D /* UFO.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = UFO.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,9 @@
 		398BC3F62B992D640053A16D /* nasaAPI */ = {
 			isa = PBXGroup;
 			children = (
-				398BC3F72B992D640053A16D /* nasaAPIApp.swift */,
-				398BC3F92B992D640053A16D /* ContentView.swift */,
+				398BC42D2B995B5D0053A16D /* 3DModel */,
+				398BC42A2B9956BA0053A16D /* Model */,
+				398BC4292B9956B30053A16D /* View */,
 				398BC3FB2B992D650053A16D /* Assets.xcassets */,
 				398BC3FD2B992D650053A16D /* Preview Content */,
 			);
@@ -125,6 +146,39 @@
 				398BC4142B992D650053A16D /* nasaAPIUITestsLaunchTests.swift */,
 			);
 			path = nasaAPIUITests;
+			sourceTree = "<group>";
+		};
+		398BC4292B9956B30053A16D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				398BC3F72B992D640053A16D /* nasaAPIApp.swift */,
+				398BC3F92B992D640053A16D /* ContentView.swift */,
+				398BC4252B993B6F0053A16D /* CharacterCardView.swift */,
+				398BC4272B994B610053A16D /* NavigationRow.swift */,
+				398BC4302B995BAD0053A16D /* USDZView.swift */,
+				396F29712BA0E6C800195C91 /* SearchView.swift */,
+				395F16F72B9B8497001704A3 /* BuscadorView.swift */,
+				396F29732BA10A7100195C91 /* FavoritesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		398BC42A2B9956BA0053A16D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				398BC4232B992ECD0053A16D /* PhotoViewModel.swift */,
+				398BC4212B992DAC0053A16D /* PhotoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		398BC42D2B995B5D0053A16D /* 3DModel */ = {
+			isa = PBXGroup;
+			children = (
+				398BC4372B995F270053A16D /* EARTH.usdz */,
+				398BC4392B9960CC0053A16D /* UFO.usdz */,
+			);
+			path = 3DModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				398BC3FF2B992D650053A16D /* Preview Assets.xcassets in Resources */,
+				398BC4382B995F280053A16D /* EARTH.usdz in Resources */,
+				398BC43A2B9960CC0053A16D /* UFO.usdz in Resources */,
 				398BC3FC2B992D650053A16D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +313,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396F29742BA10A7100195C91 /* FavoritesView.swift in Sources */,
+				395F16F82B9B8497001704A3 /* BuscadorView.swift in Sources */,
+				396F29722BA0E6C800195C91 /* SearchView.swift in Sources */,
+				398BC4282B994B610053A16D /* NavigationRow.swift in Sources */,
+				398BC4262B993B6F0053A16D /* CharacterCardView.swift in Sources */,
+				398BC4312B995BAD0053A16D /* USDZView.swift in Sources */,
+				398BC4222B992DAC0053A16D /* PhotoModel.swift in Sources */,
+				398BC4242B992ECD0053A16D /* PhotoViewModel.swift in Sources */,
 				398BC3FA2B992D640053A16D /* ContentView.swift in Sources */,
 				398BC3F82B992D640053A16D /* nasaAPIApp.swift in Sources */,
 			);

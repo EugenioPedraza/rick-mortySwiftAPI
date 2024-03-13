@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct FavoritesView: View {
+    @Binding var favorites: [Personaje]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        if !favorites.isEmpty {
+            List(favorites){ item in
+                Text(item.name)
+            }
+        } else {
+            Text("Begin by marking your favorite characters...")
+        }
+
     }
 }
 
-#Preview {
-    FavoritesView()
-}

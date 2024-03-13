@@ -12,6 +12,7 @@ struct nasaAPIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(SharedFavoritesViewModel())
         }
     }
 }

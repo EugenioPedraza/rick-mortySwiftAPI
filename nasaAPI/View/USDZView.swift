@@ -12,7 +12,8 @@ import SceneKit
 struct USDZView: UIViewRepresentable {
     let modelName: String
     var rotationAngle: CGFloat
-
+    @Binding var busquedaPersonaje: String
+    
     func makeUIView(context: Context) -> SCNView {
         let scnView = SCNView()
         scnView.scene = SCNScene(named: modelName)
@@ -22,9 +23,11 @@ struct USDZView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: SCNView, context: Context) {
-        let rotationAction = SCNAction.rotateBy(x: 0, y: rotationAngle, z: 0, duration: 5.0)
+        let rotationAction = SCNAction.rotateBy(x: 0, y: rotationAngle, z: 0, duration: 50)
         uiView.scene?.rootNode.runAction(rotationAction)
     }
 }
 
-
+#Preview {
+    USDZView(modelName: "EARTH.usdz", rotationAngle: 3, busquedaPersonaje: .constant("Rick"))
+}

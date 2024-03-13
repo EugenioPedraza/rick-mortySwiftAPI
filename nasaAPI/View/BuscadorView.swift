@@ -20,7 +20,7 @@ struct BuscadorView: View {
                 .padding()
 
             ScrollView {
-                LazyVGrid(columns: columns, spacing: 20) {
+                LazyVGrid(columns: columns, spacing: 15) {
                     ForEach(viewModel.arrPersonajes.filter {
                         busquedaPersonaje.isEmpty || $0.name.localizedCaseInsensitiveContains(busquedaPersonaje)
                     }) { item in
