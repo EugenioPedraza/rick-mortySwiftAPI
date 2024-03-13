@@ -1,18 +1,18 @@
 //
-//  PerfilView.swift
+//  SearchView.swift
 //  nasaAPI
 //
-//  Created by Eugenio Pedraza on 08/03/24.
+//  Created by Eugenio Pedraza on 12/03/24.
 //
 
 import SwiftUI
 
-struct PerfilView: View {
+struct SearchView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    PerfilView()
+    SearchView()
 }
